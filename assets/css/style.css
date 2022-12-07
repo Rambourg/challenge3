@@ -1,0 +1,26 @@
+.navbar-brand-custom {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  align-content:stretch
+ 
+  }
+
+ .row {
+    background-image: url(".//redwall.jpg");
+  background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+ }
+
+  .mr-3 {
+    width:30%; /* you can use % */
+    height: auto;
+ }
