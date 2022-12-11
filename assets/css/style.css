@@ -86,7 +86,7 @@ footer{
 }
  
 .footer-container{
-  max-width: 1300px;
+  max-width: 100%px;
   margin: 0;
   padding: 0 ;
   display: flex;
@@ -196,10 +196,7 @@ p {
   background-color: aqua;
 }
  
-@media screen and (max-width:960px) 
-  .footer-container {
-    max-width: 600px;
-  }
+
   .right-col{
     width: 100%;
     margin-bottom: 60px;
@@ -217,9 +214,17 @@ p {
 }
  
  
-@media screen and (max-width:700px)
-  .btn {
-    margin: 0;
-    width: 100%;
-    margin-top: 20px;
-    }
+    // X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) { ... }
