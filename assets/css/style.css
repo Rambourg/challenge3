@@ -119,32 +119,54 @@ footer{
  
 .right-col h1{
   font-size: 26px;
+  color: greenyellow;
+  font-style: bold;
+  font-weight: bold;
+  font-size: 40px;
+  -webkit-text-stroke: #fc5c65;
+  -webkit-text-stroke-color: #fc5c65;
+  -webkit-text-stroke-width: 1px;
+
+
 }
- 
-.border{
-  width: 100px;
-  height: 4px;
-  background: #fc5c65;
-}
+
+
+
  
 .newsletter-form{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  font-style: bold;
+  font-weight: bold;
+  font-size: 40px;
+  -webkit-text-stroke: #fc5c65;
+  -webkit-text-stroke-color: #fc5c65;
+  -webkit-text-stroke-width: 1px;
+}
+
+p { 
+  font-style: bold;
+  font-weight: bold;
+  font-size: 20px;
+  -webkit-text-stroke: #fc5c65;
+  -webkit-text-stroke-color: #fc5c65;
+  -webkit-text-stroke-width: 1px;
 }
  
 .txtb{
   flex: 1;
   padding: 18px 40px;
   font-size: 16px;
-  color: white;
+  color: black;
   background: #ddd;
   border: none;
   font-weight: 700;
   outline: none;
   border-radius: 30px;
   min-width: 260px;
+  
 }
  
 .btn{
@@ -159,6 +181,7 @@ footer{
   margin-left: 20px;
   cursor: pointer;
   transition: opacity .3s linear;
+  
 }
  
 .btn:hover{
@@ -195,7 +218,7 @@ footer{
  
  
 @media screen and (max-width:700px)
-  .btn{
+  .btn {
     margin: 0;
     width: 100%;
     margin-top: 20px;
